@@ -56,15 +56,15 @@
 import React from "react";
 import ArrowIcon from "../../assets/Iconly.svg";
 import styles from "./store.module.css";
-import IMAGE1 from "../../assets/hairbasicz/Gallery/1.JPG";
-import IMAGE2 from "../../assets/hairbasicz/Gallery/2.PNG";
+import IMAGE1 from "../../assets/hairbasicz/Gallery/1.jpg";
+import IMAGE2 from "../../assets/hairbasicz/Gallery/2.png";
 import IMAGE3 from "../../assets/hairbasicz/Gallery/3.jpg";
 import IMAGE4 from "../../assets/hairbasicz/Gallery/4.jpg";
-import IMAGE5 from "../../assets/hairbasicz/Gallery/5.JPG";
-import IMAGE6 from "../../assets/hairbasicz/Gallery/6.JPG";
-import IMAGE7 from "../../assets/hairbasicz/Gallery/7.JPG";
+import IMAGE5 from "../../assets/hairbasicz/Gallery/5.jpg";
+import IMAGE6 from "../../assets/hairbasicz/Gallery/6.jpg";
+import IMAGE7 from "../../assets/hairbasicz/Gallery/7.jpg";
 import IMAGE8 from "../../assets/hairbasicz/Gallery/8.jpg";
-import IMAGE9 from "../../assets/hairbasicz/Gallery/9.JPG";
+import IMAGE9 from "../../assets/hairbasicz/Gallery/9.jpg";
 
 const mockBrandsData = [
   { id: 1, image: IMAGE1 },
