@@ -26,6 +26,16 @@ export default defineConfig({
   },
   build: {
     outDir: "dist/app",
+    // Increase chunk size warning limit to reduce false-positives for large assets
+    chunkSizeWarningLimit: 2000, // in KiB (2 MiB)
+    rollupOptions: {
+      output: {
+        // Put third-party deps into a vendor chunk to keep app chunks smaller
+        manualChunks(id) {
+          if (id.includes('node_modules')) return 'vendor';
+        }
+      }
+    },
     loader: {
       packages: "external",
     },

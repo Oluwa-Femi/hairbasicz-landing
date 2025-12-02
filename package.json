@@ -17,7 +17,8 @@
     "lint:warning": "eslint --max-warnings=0 src",
     "lint:fix": "eslint ./src --ext .jsx,.js,.ts,.tsx --quiet --fix --ignore-path ./.gitignore",
     "lint:format": "prettier  --loglevel warn --write \"./**/*.{js,jsx,css,md,json}\"",
-    "lint": "yarn lint:format && yarn lint:fix "
+    "lint": "yarn lint:format && yarn lint:fix ",
+    "optimize:images": "npx imagemin src/assets/hairbasicz/Gallery/* --out-dir=src/assets/hairbasicz/Gallery/optimized --plugins=imagemin-mozjpeg,imagemin-pngquant"
   },
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.18.6",
