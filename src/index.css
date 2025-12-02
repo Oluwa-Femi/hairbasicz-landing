@@ -5,24 +5,28 @@
 @font-face {
   font-family: "Gilroy-Regular";
   src: local("Gilroy-Regular"),
+    url(./fonts/Gilroy-Font/Gilroy-Regular.woff) format("woff"),
     url(./fonts/Gilroy-Font/Gilroy-Regular.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "Gilroy-Bold";
   src: local("Gilroy-Bold"),
+    url(./fonts/Gilroy-Font/Gilroy-Bold.woff) format("woff"),
     url(./fonts/Gilroy-Font/Gilroy-Bold.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "Gilroy-Medium";
   src: local("Gilroy-Medium"),
+    url(./fonts/Gilroy-Font/Gilroy-Medium.woff) format("woff"),
     url(./fonts/Gilroy-Font/Gilroy-Medium.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "Gilroy-SemiBold";
   src: local("Gilroy-SemiBold"),
+    url(./fonts/Gilroy-Font/Gilroy-SemiBold.woff) format("woff"),
     url(./fonts/Gilroy-Font/Gilroy-SemiBold.ttf) format("truetype");
 }
 
