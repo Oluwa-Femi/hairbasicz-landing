@@ -236,25 +236,32 @@ const Header = ({
           )}
           {!showCheckout && (
             <div className="px-[24px] items-center gap-3 cursor-pointer xsm:hidden sm:hidden md:flex">
-              <span className="flex items-center gap-3">
-                <a
-                  href={"https://paystack.shop/hairbasicz-nigeria"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={"text-[#2922b3] font-[Gilroy-Medium] font-[500] hover:text-[#2922b3]"}
-                >
-                  Shop in Nigeria
-                </a>
+              <div className="flex items-center gap-3">
+                <Button
+                  width={"w-[140px]"}
+                  height={"h-[40px]"}
+                  borderRadius={"rounded-[8px]"}
+                  backgroundColor={"bg-[#2922b3]"}
+                  fontSize={"text-[14px]"}
+                  fontWeight={"font-[600]"}
+                  label={"Shop in Nigeria"}
+                  color={"text-white"}
+                  onClick={() => window.open("https://paystack.shop/hairbasicz-nigeria", "_blank", "noopener,noreferrer")}
+                />
 
-                <a
-                  href={"https://paystack.shop/hairbasicz-international"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={"text-[#2922b3] font-[Gilroy-Medium] font-[500] hover:text-[#2922b3]"}
-                >
-                  Shop internationally
-                </a>
-              </span>
+                <Button
+                  width={"w-[160px]"}
+                  height={"h-[40px]"}
+                  borderRadius={"rounded-[8px]"}
+                  backgroundColor={"bg-transparent"}
+                  borderColor={"border-[#2922b3]"}
+                  fontSize={"text-[14px]"}
+                  fontWeight={"font-[600]"}
+                  label={"Shop internationally"}
+                  color={"text-[#2922b3]"}
+                  onClick={() => window.open("https://paystack.shop/hairbasicz-international", "_blank", "noopener,noreferrer")}
+                />
+              </div>
             </div>
           )}
           {/* {!showCheckout && (
