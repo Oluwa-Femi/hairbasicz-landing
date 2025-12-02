@@ -1,6 +1,5 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import postcss from "postcss";
 import path from "path";
 import svgr from "vite-plugin-svgr";
 import EnvironmentPlugin from "vite-plugin-environment";
@@ -8,7 +7,6 @@ import EnvironmentPlugin from "vite-plugin-environment";
 export default defineConfig({
   plugins: [
     react(),
-    postcss(),
     svgr({
       exportAsDefault: false,
       svgrOptions: { icon: true },
