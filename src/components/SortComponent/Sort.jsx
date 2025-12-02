@@ -25,12 +25,21 @@ const Sort = ({ pageTitle, onClick, sortIndex, sortList, product }) => {
   return (
     <div className="px-[128px]  xsm:px-5 sm:px-5 py-[16px] xsm:py-3 bg-white">
       <div className="flex items-center gap-2">
-        <p
-          onClick={() => window.open("https://paystack.shop/hairbasicz-nigeria", "_blank", "noopener,noreferrer")}
-          className="text-[14px] text-[#9DA1A8] cursor-pointer"
-        >
-          Store
-        </p>
+        <div className="flex items-center gap-4">
+          <p
+            onClick={() => window.open("https://paystack.shop/hairbasicz-nigeria", "_blank", "noopener,noreferrer")}
+            className="text-[14px] text-[#9DA1A8] cursor-pointer"
+          >
+            Store
+          </p>
+
+          <p
+            onClick={() => window.open("https://paystack.shop/hairbasicz-international", "_blank", "noopener,noreferrer")}
+            className="text-[14px] text-[#9DA1A8] cursor-pointer"
+          >
+            Shop internationally
+          </p>
+        </div>
 
         {/* site map for text */}
 

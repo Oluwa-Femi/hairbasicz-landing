@@ -42,17 +42,32 @@ const Services = () => {
             Experience premium class quality service - 
             Excellent hair care and growth specialists.
           </p>
-          <Button
-            width={"w-[137px]"}
-            height={"h-[48px]"}
-            borderRadius={"rounded-[8px]"}
-            backgroundColor={"bg-[#FFFFFF]"}
-            fontSize={"text-[16px]"}
-            fontWeight={"font-[600]"}
-            label="Start Shopping"
-            color={"text-[#2922b3]"}
-            onClick={() => window.open("https://paystack.shop/hairbasicz-nigeria", "_blank", "noopener,noreferrer")}
-          />
+          <div className="flex items-center justify-center gap-4">
+            <Button
+              width={"w-[137px]"}
+              height={"h-[48px]"}
+              borderRadius={"rounded-[8px]"}
+              backgroundColor={"bg-[#FFFFFF]"}
+              fontSize={"text-[16px]"}
+              fontWeight={"font-[600]"}
+              label="Shop in Nigeria"
+              color={"text-[#2922b3]"}
+              onClick={() => window.open("https://paystack.shop/hairbasicz-nigeria", "_blank", "noopener,noreferrer")}
+            />
+
+            <Button
+              width={"w-[170px]"}
+              height={"h-[48px]"}
+              borderRadius={"rounded-[8px]"}
+              backgroundColor={"bg-transparent"}
+              borderColor={"border-white"}
+              fontSize={"text-[16px]"}
+              fontWeight={"font-[600]"}
+              label="Shop internationally"
+              color={"text-white"}
+              onClick={() => window.open("https://paystack.shop/hairbasicz-international", "_blank", "noopener,noreferrer")}
+            />
+          </div>
         </div>
       </div>
     </div>

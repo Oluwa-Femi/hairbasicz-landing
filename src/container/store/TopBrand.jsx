@@ -35,16 +35,26 @@ const TopBrand = () => {
         <p className={styles.topBrandDescription}>
           Our products are responsible for the stories behind each captured moment.
         </p>
-        <p
-          aria-hidden
-          className={styles.shopNow}
-          onClick={() => window.open("https://paystack.shop/hairbasicz-nigeria", "_blank", "noopener,noreferrer")}
-        >
-          Shop now{" "}
-          <span>
-            <img src={ArrowIcon} alt="arrow-icon" />
-          </span>
-        </p>
+        <div className="flex items-center gap-4 pt-[32px]">
+          <p
+            aria-hidden
+            className={styles.shopNow}
+            onClick={() => window.open("https://paystack.shop/hairbasicz-nigeria", "_blank", "noopener,noreferrer")}
+          >
+            Shop in Nigeria
+            <span>
+              <img src={ArrowIcon} alt="arrow-icon" />
+            </span>
+          </p>
+
+          <p
+            aria-hidden
+            className={styles.shopNow}
+            onClick={() => window.open("https://paystack.shop/hairbasicz-international", "_blank", "noopener,noreferrer")}
+          >
+            Shop internationally
+          </p>
+        </div>
       </div>
       <div className="w-[50%] xsm:w-full sm:w-full">
         <div className={styles.topBrandImageBG}>

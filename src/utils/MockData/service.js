@@ -11,7 +11,7 @@ export const ServicesMenu = [
     desc: "Experience Swift and Reliable Deliveries to Any Corner of the Globe!",
   },
   {
-    name: "1 - 5 days delivery",
+    name: "Quick and Secure Shipping",
     img: ColoredBusIcon,
     desc: "From Order to Arrival, Get Your Items in Your Hands Within a Short Timeframe!",
   },

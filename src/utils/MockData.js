@@ -20,7 +20,7 @@ export const MenuHeader = [
 
 export const IconsMenu = [
   { name: "Fast shipping worldwide", img: GlobalIcon },
-  { name: "1 - 5 days delivery", img: BusIcon },
+  { name: "Quick and Secure Shipping", img: BusIcon },
   { name: "24 hours service", img: ClockIcon },
   { name: "Customer-Environment Excellence", img: NoteIcon },
   { name: "Seamless online payment", img: CardIcon },

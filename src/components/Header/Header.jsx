@@ -236,14 +236,23 @@ const Header = ({
           )}
           {!showCheckout && (
             <div className="px-[24px] items-center gap-3 cursor-pointer xsm:hidden sm:hidden md:flex">
-              <span>
+              <span className="flex items-center gap-3">
                 <a
                   href={"https://paystack.shop/hairbasicz-nigeria"}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={"text-[#2922b3] font-[Gilroy-Medium] font-[500] hover:text-[#2922b3]"}
                 >
-                  Store
+                  Shop in Nigeria
+                </a>
+
+                <a
+                  href={"https://paystack.shop/hairbasicz-international"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={"text-[#2922b3] font-[Gilroy-Medium] font-[500] hover:text-[#2922b3]"}
+                >
+                  Shop internationally
                 </a>
               </span>
             </div>
@@ -402,14 +411,22 @@ const Header = ({
                 </a>
               </span>
               <div className="gap-5 cursor-pointer flex items-center hover:bg-[#2922b3] hover:text-[white]">
-                <span>
+                <span className="flex flex-col gap-2">
                   <a
                     href={"https://paystack.shop/hairbasicz-nigeria"}
                     target="_blank"
                     rel="noopener noreferrer"
                     className={"text-[#2922b3] font-[Gilroy-Medium] font-[500] hover:text-[#2922b3]"}
                   >
-                    Store
+                    Shop in Nigeria
+                  </a>
+                  <a
+                    href={"https://paystack.shop/hairbasicz-international"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={"text-[#2922b3] font-[Gilroy-Medium] font-[500] hover:text-[#2922b3]"}
+                  >
+                    Shop internationally
                   </a>
                 </span>
               </div>
@@ -442,7 +459,10 @@ const Header = ({
           )}
         >
           <div className="child:text-[#47494D] child:py-[16px] child:font-[Gilroy-Medium] text-[16px] flex flex-col gap-[16px]">
-            <a href={"https://paystack.shop/hairbasicz-nigeria"} target="_blank" rel="noopener noreferrer">Store</a>
+            <div className="flex items-center gap-3">
+              <a href={"https://paystack.shop/hairbasicz-nigeria"} target="_blank" rel="noopener noreferrer">Shop in Nigeria</a>
+              <a href={"https://paystack.shop/hairbasicz-international"} target="_blank" rel="noopener noreferrer">Shop internationally</a>
+            </div>
             <NavLink to={"/faqs"}>FAQs</NavLink>
             <NavLink to={"/contact-us"}>Contact</NavLink>
             <NavLink to={"/about-us"}>About</NavLink>
