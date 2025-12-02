@@ -261,12 +261,21 @@ const Cart = () => {
       />
       <div className="px-[128px] py-[16px] bg-white hidden xl:block 2xl:block">
         <div className="flex items-center gap-2">
-          <p
-            className="text-[14px] text-[#9DA1A8] cursor-pointer"
-            onClick={handleGoToStore}
-          >
-            Store
-          </p>
+          <div className="flex items-center gap-4">
+            <p
+              className="text-[14px] text-[#9DA1A8] cursor-pointer"
+              onClick={handleGoToStore}
+            >
+              Shop in Nigeria
+            </p>
+
+            <p
+              className="text-[14px] text-[#9DA1A8] cursor-pointer"
+              onClick={() => window.open("https://paystack.shop/hairbasicz-international", "_blank", "noopener,noreferrer")}
+            >
+              Shop internationally
+            </p>
+          </div>
           <img alt="icon" src={ArrowRight}></img>
           {location.pathname === "/cart" && (
             <p className="text-[14px] font-[Gilroy-Bold]">Shopping Cart</p>

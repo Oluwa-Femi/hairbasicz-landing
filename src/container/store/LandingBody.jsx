@@ -17,17 +17,32 @@ const LandingBody = () => {
         <p className={styles.landingBodyDescription2}>
           Explore our products today for a lifetime experience
         </p>
-        <Button
-          width={"w-[115px]"}
-          height={"h-[48px]"}
-          borderRadius={"rounded-[8px]"}
-          backgroundColor={"bg-[#2922b3]"}
-          fontSize={"text-[16px]"}
-          fontWeight={"font-[600]"}
-          label="Shop now"
-          color={"text-white"}
-          onClick={() => window.open("https://paystack.shop/hairbasicz-nigeria", "_blank", "noopener,noreferrer")}
-        />{" "}
+        <div className="flex items-center gap-4 justify-center">
+          <Button
+            width={"w-[115px]"}
+            height={"h-[48px]"}
+            borderRadius={"rounded-[8px]"}
+            backgroundColor={"bg-[#2922b3]"}
+            fontSize={"text-[16px]"}
+            fontWeight={"font-[600]"}
+            label="Shop in Nigeria"
+            color={"text-white"}
+            onClick={() => window.open("https://paystack.shop/hairbasicz-nigeria", "_blank", "noopener,noreferrer")}
+          />
+
+          <Button
+            width={"w-[140px]"}
+            height={"h-[48px]"}
+            borderRadius={"rounded-[8px]"}
+            backgroundColor={"bg-white"}
+            borderColor={"border-[#2922b3]"}
+            fontSize={"text-[16px]"}
+            fontWeight={"font-[600]"}
+            label="Shop internationally"
+            color={"text-[#2922b3]"}
+            onClick={() => window.open("https://paystack.shop/hairbasicz-international", "_blank", "noopener,noreferrer")}
+          />
+        </div>
         <div>
           <div className={styles.shoppingBagWrapper}>
             <img
