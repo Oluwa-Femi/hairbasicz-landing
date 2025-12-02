@@ -1,0 +1,10 @@
+node_modules/
+dist/
+dist/app/
+.env
+.env.local
+.env.*
+.venv/
+coverage/
+/.idea/
+.DS_Store
